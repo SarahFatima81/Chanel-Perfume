@@ -1,0 +1,40 @@
+
+
+@media (max-width: 32rem){
+            .card{
+                grid-template-columns: 1fr;
+                margin: 1.8rem;
+
+            }
+            .perfume-picture1{
+                display: none;
+            }
+            .perfume-picture2{
+                display: block;
+                height: 15rem;
+                border-bottom-left-radius: 0;
+            }
+            .description{
+                margin: 1.25rem;
+            }
+            .perfume{
+                /* padding-top: 25px; */
+                font-size: 0.75rem;
+            }
+            .description-text{
+                font-size: 0.875rem;
+            }
+            h1{
+                font-size: 1.875rem;
+            }
+            .discount-price{
+                display: block;
+                margin-right: 0.625rem;
+            } 
+            button{
+                padding: 0.938rem 1.875rem;
+            }
+            .cart{
+                font-size: 0.875rem;
+            }
+        }
